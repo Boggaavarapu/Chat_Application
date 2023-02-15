@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn btn-primary{
+  margin-left: 10px;
+}
+.avatar{
+  font-style:oblique;
+  display: block;
+  margin-left: 10px;
+  text-align-last: left;
+}
+.message-data{
+  margin-left: 10px;
+  font-style:oblique;
+  display: block;
+}
+#abcd{
+  margin-left: 30%;
+  margin-top: 25%;
+}
+
+.send-button{
+  border-radius: 12px;
+  margin-left: 10px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  border-radius: 12px;
+  flex-direction: row;
+}
+.inside{
+  display: flex;
+  margin-left: 30%;
+  
+}
+.box{
+  display: flex;
+  
+}
+.ins1{
+  display: flex;
+  flex-direction: row;
+}
+.ins2{
+  display: flex;
+  flex-direction: row;
+}
+.chat-content{
+ 
+  text-emphasis-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  border:24px ;
+}
+#buttons{
+  margin-left: 10px;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 0px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.send-button{
+  margin-left: 10px;
+}
+#buttonid{
+  margin-left: 10px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.chat-message{
+  background-attachment: fixed;
+  
+}
+.container1{
+  display: flex;
+  height: 743px;
+  flex-direction: column;
+  background-color: #c50f0f;
+}
+.abc{
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  background-color: #c50f0f;
+  margin-bottom: 10px;
+}
+p{
+  margin-top:15px;
+  font-style: italic;
+}
+.whole{
+  height: 100%;
+  margin-top: 10px;
+  overflow: auto;
+}
+.buttons{
+  border: 0%;
+  border-radius: 0%;
+}
+.left{
+  width:20%;
+  height: 100%;
+  background-color: azure;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.row{
+  margin-top: 30%;
+}
+.chat-box{
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  overflow: scroll;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.App-link {
+  color: #61dafb;
+}
+input{
+  width: 500px;
+  font-style: italic;
+}
+.send-message{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
